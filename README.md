@@ -1,6 +1,6 @@
 # JOSE PEREZ
 
-**+1 (469) 238-6090** | **jjimenez1@wpi.edu** | **Worcester, MA**  
+**+1 (508) 373-8228** | **jjimenez1@wpi.edu** | **Worcester, MA**  
 [LinkedIn](https://linkedin.com/in/josempj) | [GitHub](https://github.com/josemanuel657)
 
 ---
@@ -8,73 +8,77 @@
 ## EDUCATION
 
 **Worcester Polytechnic Institute (WPI)**, Worcester, MA  
-**B.S./M.S. in Computer Science and Artificial Intelligence** - 4.0 GPA  
+**B.S./M.S. in Computer Science and Artificial Intelligence** – GPA: 4.0  
 *Expected Graduation:* May 2026  
+
 **Relevant Coursework:**  
-- Machine Learning DevOps*  
-- Reinforcement Learning*  
-- Data Mining*  
+- Reinforcement Learning  
+- Machine Learning  
+- Algorithms & Data Structures  
+- Numerical Methods  
+- Discrete Mathematics  
+- Operating Systems  
 - Computer Networks  
+- DevOps  
 - Software Engineering  
-- Data Structures/Algorithms  
-- Object-Oriented Programming  
-- Computer Graphics  
-(*to be completed by November 2024)
+- Data Mining  
 
 ---
 
 ## SKILLS
 
-**Programming Languages:**  
-Typescript, Java, C, C++, Python, MATLAB, PostgreSQL, R, Ruby  
+**Languages & Frameworks:**  
+C++, Python, Rust, Java, SQL, Bash, MATLAB, R, PyTorch, TensorFlow, scikit-learn  
 
-**Frameworks:**  
-React, Express, Next, MUI, Tailwind, AWS (ES, RDS), Prisma, Pandas, Scikit-Learn, Pytorch  
+**Tools & Platforms:**  
+Docker, Kubernetes, AWS, Redis, RabbitMQ, Prometheus, Grafana, Humio, Git, Jira  
 
-**Development Tools:**  
-Git, Jira, AWS, Figma, Docker, Postman, WebStorm, Wireshark, Hugging Face, Azure  
+---
 
-**Languages:**  
-Spanish (Native), English (Fluent), French (Advanced)
+## EXPERIENCE
+
+**Bloomberg L.P.**, New York, NY  
+*Software Engineering Intern* — May–Aug 2025  
+- Engineered a distributed C++ rate-limiting library featuring Redis and a sharded DB to enforce tiered quotas on 10K+ daily requests across Multi-Asset Risk System (MARS) workflows, serving 3 internal teams.  
+- Integrated a configurable burst control proxy to throttle per-instance requests across 20+ production clusters.  
+- Featured C++ macros for real-time cost monitoring and alerting via Humio and Grafana, surfacing 9k metrics daily.  
+- Achieved 80% unit-test coverage and built a multithreaded Python stress tester to validate peak-time reliability.  
+
+**ViaSat**, Worcester, MA  
+*Computer Networks Research, WPI* — Nov 2023–May 2024  
+- Evaluated a custom congestion control algorithm for high-latency satellite links, achieving 20% higher TCP throughput than Hystart by preemptively exiting the slow-start phase to avoid packet loss.  
+- Developed Python scripts to automate benchmarking and data capture (PCAP, logs) across 140 connections at 7 test sites via iperf3 and SSH into the Linux-based satellite systems.  
+- Analyzed time-series network data with Pandas to quantify performance deltas and guide further algorithm tuning.  
+
+**Mass General Brigham**, Boston, MA  
+*Software Engineering Collaboration, WPI* — Mar–May 2024  
+- Led backend pathfinding systems for a hospital navigation app (React, Express, PostgreSQL) deployed on AWS.  
+- Integrated authentication, service modules, analytics and map editing features as part of a 10-person team.  
+- Led a 5-engineer sub-team as the Algorithm SWE Lead, conducting daily scrums, creating user stories, gathering 30+ requirements, and designing 4 UML models for core pathfinding features.  
+
+**Worcester Polytechnic Institute**, Worcester, MA  
+*Numerical Methods Research* — Jun–Aug 2023  
+- Researched real-time heat transfer solvers for PDEs using MATLAB, focusing on room cooling efficiency.  
+- Implemented the heat equation as a recursive matrix system over vertex meshes using the FEM and FD methods.  
+- Identified the top 3 optimal room layouts for cooling efficiency via statistical analysis using the L² and L∞ norms.  
+
+**Worcester Polytechnic Institute**, Worcester, MA  
+*Teaching Assistant* — Aug 2023–Present  
+- Led labs, coached lectures, graded exams, and provided 1:1s across 9 CS courses including OS, SWE, and Networks.  
 
 ---
 
 ## PROJECTS
 
-### Software Engineering Collaboration with Brigham & Women’s Hospital, WPI (March 2024 – May 2024)
-- Engineered a full-stack WebApp prototype for Mass General Brigham, as part of a 10-person team, following Agile methodologies, daily scrum, and software design patterns throughout the software development lifecycle.
-- Designed and deployed the application using React.js, TypeScript, Material UI, Express.js, and Prisma ORM on AWS EC2 with Docker and AWS RDS for cloud storage.
-- Integrated hospital pathfinding and editing features, along with 4 service request modules, using authentication and analytics, showcasing potential features and UI designs to the hospital software development team.
-- Directed a team of 5 engineers as the algorithm Assistant Lead Software Engineer, collecting 30+ requirements through surveys, interviews, and brainstorming. Created user stories, scenarios, and storyboards and 4 UML diagrams for the pathfinding component of the application, including use-case, class, and activity models.
+**Deep Q-Learning Network** — Sep–Dec 2024  
+- Implemented and trained a Deep Q-Learning Network (DQN) using PyTorch to master the Atari game Breakout.  
+- Achieved an average reward of 220 points over 100 episodes using “Rainbow” optimizations, including prioritized experience replay, double Q-learning, dueling architecture, multi-step learning, and noisy networks.  
 
-### Computer Networks Study Collaboration with VIASAT, WPI (November 2023 – May 2024)
-- Collaborated with network engineers to test a TCP Congestion Control algorithm for high-latency satellite connections, boosting throughput by up to 20% over Hystart by exiting the slow-start phase before packet loss.
-- Automated data collection via Python scripts, capturing PCAP and log files from 140 satellite connections across 7 campus sites, using iperf3 and SSH to compare Linux Hystart performance with the new algorithm.
-- Analyzed network data with Pandas and generated reports to demonstrate improvements in overall throughput.
+**Moodle Well-being App** — Mar–May 2025  
+- Developed an Android mental health journaling app using Jetpack Compose, SQLite, and MVVM architecture.  
+- Integrated Gemini for conversational journaling, sentiment analysis, mood trend tracking, and motivational insights.  
+- Utilized historical chats, photos, and mood data with prompt engineering to create personalized monthly summaries.  
 
-### Numerical Methods Research, EREE Program, WPI (June 2023 – August 2023)
-- Conducted research on real-time heat diffusion using the Finite Element (FEM) and Finite Differences (FD) methods across 30 room configurations, applying numerical analysis and computational modeling techniques.
-- Implemented the heat partial differential equation in MATLAB as a recursive matrix equation on a vertex mesh and identified the 3 most optimal configurations through statistical assessment using L2 and L∞ norms.
-
-### Machine Learning Model Fine-Tuning, WPI (January 2024 – February 2024)
-- Fine-tuned a ML model using OpenAI API and Scikit-Learn, enhancing QA dataset accuracy by 15%.
-- Evaluated performance and optimized the model with data preprocessing techniques, reducing hallucinations.
-
----
-
-## ADDITIONAL EXPERIENCE
-
-**Teaching Assistant, CS (August 2023 – Present)**  
-- Led lab sessions, assessed exams, held office hours, and provided one-on-one help across 6 different CS courses to help students understand programming concepts.
-
-**Hotel Receptionist, Hyatt Collection, Almeria, Spain (Summer 2024)**  
-- Managed 400-room hotel operations, including reservations and maintenance. Delivered high customer service and increased upsells by 10%.
-
-**Student Caller, WPI Advancement Services (August 2022 – June 2023)**  
-- Engaged alumni to foster community and maintain WPI relationships, contributing with the ambassador team to secure $1M in support.
-
-**Lifeguard, SAR, Almeria, Spain (Summer 2021)**  
-- Ensured safety at 2 beaches with water rescues and first aid.
 
 **Volunteer, Red Cross, Almeria, Spain (Summer 2020)**  
 - Tutored 15 immigrant children in Spanish and math.
